@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce website b-5</title>
+
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Reddit+Mono:wght@200..900&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+
+    <!-- aos link -->
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+  <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+    <!-- THEMIFY ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@icon/themify-icons@1.0.1-alpha.3/themify-icons.min.css">
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- RESPONSIVE CSS -->
+    <link rel="stylesheet" href="responsive.css">
+
+    <!-- BOOTSTRAP 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <!-- navigation -->
+    <section class="header">
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+       <img src="p-24-1-images/image.png" class="img-fluid" alt="logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+      <!-- <span class="navbar-toggler-icon ti-align-justify"></span> -->
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#product">Product</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#special">Special</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#testimonials">Testimonials</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Contact">contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</section>
+    
+    <!-- home page -->
+    <section id="home" class="home pt-5 overlfow-hidden">
+
+     <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+
+          <div class="home-banner home-banner-1">
+            <div class="home-banner-text">
+              <h1>Women</h1>
+              <h2>52% Discount For This season</h2>
+              <a href="#" class="btn btn-danger text-uppercase mt-4">Our Products</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="home-banner home-banner-2">
+            <div class="home-banner-text">
+              <h1>E-shop</h1>
+              <h2>With working card & pay pal</h2>
+              <a href="#" class="btn btn-danger text-uppercase mt-4">Our Products</a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true">
+          <span class="slider-icon">
+            <!-- <i class="fa-solid fa-chevron-right"></i> -->
+            <i class="fa-solid fa-angle-left"></i>
+
+          </span>
+        </span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true">
+          <span class="slider-icon">
+            <!-- <i class="fa-solid fa-angle-left"></i> -->
+            <i class="fa-solid fa-chevron-right"></i>
+          </span>
+        </span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+</section>
+
+
+    <!-- offers are here -->
+
+<section class="offers pt-5 d-flex justify-content-center g-5">
+    <!-- <div class="offers"> -->
+      <div class="container">
+        <div class="row">
+          <!-- offers box one -->
+          <div class="col-sm-6 col-lg-4 mb-lg-0" data-aos="fade-down" data-aos-delay="500"   data-aos-duration="600">
+            <a href="#">
+              <div class="offer-box text-center position-relative">
+                <div class="offer-inner">
+                  <div class="offer-image position-relative overlfow-hidden">
+                    <img src="p-24-1-images/product-1.jpg" alt="offer-one" class="img-fluid h-50 w-70">
+                    <div class="offer-overlay"></div>
+                  </div>
+                  <div class="offer-info">
+                    <div class="offer-info-inner">
+                      <p class="heading-bigger text-capitalize">Sale 30%</p>
+                      <p class="offer-title-1 text-uppercase font-weight-bold">Don't miss this Chance</p>
+                      <button type="button" class="btn btn-outline-danger text-uppercase xl-mt-4 mt-1">Shop Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-lg-0 mb-4 d-one" data-aos="fade-in" data-aos-delay="500"   data-aos-duration="600">
+            <a href="#">
+              <div class="offer-box text-center position-relative mb-lg-0 mb-sm-0" data-aos="fade-up" data-aos-delay="500"   data-aos-duration="600">
+                <div class="offer-inner">
+                  <div class="offer-image position-relative overlfow-hidden">
+                    <img src="p-24-1-images/product-2.jpg" alt="offer-one" class="img-fluid h-50 w-70">
+                    <div class="offer-overlay"></div>
+                  </div>
+                  <div class="offer-info">
+                    <div class="offer-info-inner">
+                      <p class="heading-bigger text-capitalize">Sale 70%</p>
+                      <p class="offer-title-1 text-uppercase font-weight-bold">Don't miss this Chance</p>
+                      <button type="button" class="btn btn-outline-danger text-uppercase xl-mt-4 mt-1">Shop Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+              <div class="offer-box text-center position-relative mb-lg-0 mb-sm-0" data-aos="fade-down" data-aos-delay="500"   data-aos-duration="600">
+                <div class="offer-inner">
+                  <div class="offer-image position-relative overlfow-hidden">
+                    <img src="p-24-1-images/product-3.jpg" alt="offer-one" class="img-fluid h-50 w-70">
+                    <div class="offer-overlay"></div>
+                  </div>
+                  <div class="offer-info">
+                    <div class="offer-info-inner">
+                      <p class="heading-bigger text-capitalize">Sale 70%</p>
+                      <p class="offer-title-1 text-uppercase font-weight-bold">Don't miss this Chance</p>
+                      <button type="button" class="btn btn-outline-danger text-uppercase xl-mt-4 mt-1">Shop Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-lg-0" data-aos="fade-up" data-aos-delay="500"   data-aos-duration="600">
+            <a href="#">
+              <div class="offer-box text-center position-relative">
+                <div class="offer-inner">
+                  <div class="offer-image position-relative overlfow-hidden">
+                    <img src="p-24-1-images/product-1.jpg" alt="offer-one" class="img-fluid h-50 w-70">
+                    <div class="offer-overlay"></div>
+                  </div>
+                  <div class="offer-info">
+                    <div class="offer-info-inner">
+                      <p class="heading-bigger text-capitalize">Sale 30%</p>
+                      <p class="offer-title-1 text-uppercase font-weight-bold">Don't miss this Chance</p>
+                      <button type="button" class="btn btn-outline-danger text-uppercase xl-mt-4 mt-1">Shop Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    <!-- </div> -->
+  </section>
+
+
+    <!--product section  -->
+
+    <section id="product" class="product" >
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="headline text-center mb-5 mt-5">
+              <h2 class="pb-3 position-relative d-inline-block">FRATURED PRODUCTS</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 col-lg-4" data-aos="zoom-in">
+            <div href="#" class="d-block text-center mb-4 r-center">
+              <div class="product-list">
+                <div class="product-image position-relative">
+                  <span class="Sale" data-aos="zoom-in"
+                  data-aos-delay="1000"   data-aos-duration="600">Sale</span>
+                    <img src="p-24-1-images/col-1_prev_ui.png"  data-aos="fade-down" data-aos-delay="500"   data-aos-duration="6000" alt="logo" class="img-fluid product-image-first w-50 h-50">
+                    <img src="p-24-1-images/col-two_prev_ui.png" alt="logo" class="img-fluid product-image-secondary w-50 h-100">
+                </div>
+                <div class="product-name pt-3">
+                  <h3 class="text-capitalize">Winter long sleeve black white</h3>
+                  <p class="product-para">$400.00 <del>580.00</del> </p>
+                 <div class="py-1">
+                  <span class="star"><i class="fa-regular fa-star" data-aos="zoom-in"
+                    data-aos-delay="100"   data-aos-duration="600"></i></span>
+                    <span class="star"><i class="fa-regular fa-star" data-aos="zoom-in"
+                      data-aos-delay="200"   data-aos-duration="600"></i></span>
+                    <span class="star active"><i class="fa-regular fa-star" data-aos="zoom-in"
+                      data-aos-delay="300"   data-aos-duration="600"></i></span>
+                    <span class="star active"><i class="fa-regular fa-star" data-aos="zoom-in"
+                      data-aos-delay="400"   data-aos-duration="600"></i></span>
+                    <span class="star active"><i class="fa-regular fa-star" data-aos="zoom-in"
+                      data-aos-delay="500"   data-aos-duration="600"></i></span>
+                 </div>
+                 <button type="button" class="add-to-cart" data-aos="zoom-in"
+                 data-aos-delay="500"   data-aos-duration="600">ADD TO CART</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4" data-aos="zoom-in">
+            <div href="#" class="d-block text-center mb-4 r-center">
+              <div class="product-list">
+                <div class="product-image position-relative">
+                    <img src="p-24-1-images/col-3_prev_ui.png"  data-aos="fade-down" data-aos-delay="500"   data-aos-duration="6000"  alt="logo" class="img-fluid product-image-first w-50 h-50">
+                    <img src="p-24-1-images/col-4_prev_ui.png" alt="logo" class="img-fluid product-image-secondary w-50 h-100">
+                </div>
+                <div class="product-name pt-3">
+                  <h3 class="text-capitalize">Winter long sleeve black white</h3>
+                  <p class="amount">$450.00</p>
+                  <div class="py-1">
+                    <span class="star"><i class="fa-regular fa-star" data-aos="zoom-in"
+                      data-aos-delay="100"   data-aos-duration="600"></i></span>
+                    <span class="star"><i class="fa-regular fa-star" data-aos="zoom-in"
+                      data-aos-delay="200"   data-aos-duration="600"></i></span>
+                    <span class="star active"><i class="fa-regular fa-star" data-aos="zoom-in"
+                      data-aos-delay="300"   data-aos-duration="600"></i></span>
+                    <span class="star active"><i class="fa-regular fa-star" data-aos="zoom-in"
+                      data-aos-delay="400"   data-aos-duration="600"></i></span>
+                    <span class="star active"><i class="fa-regular fa-star" data-aos="zoom-in"
+                      data-aos-delay="500"   data-aos-duration="600"></i></span>
+                   </div>
+                   <button type="button" class="add-to-cart" data-aos="zoom-in"
+                   data-aos-delay="500"   data-aos-duration="600">ADD TO CART</button>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4" data-aos="zoom-in">
+            <div href="#" class="d-block text-center mb-4 r-center">
+              <div class="product-list">
+                <div class="product-image position-relative">
+                    <img src="p-24-1-images/col-5_prev_ui.png"  data-aos="fade-down" data-aos-delay="500"   data-aos-duration="6000" alt="logo" class="img-fluid product-image-first w-50 h-50">
+                    <img src="p-24-1-images/col-6_prev_ui.png" alt="logo" class="img-fluid product-image-secondary w-50 h-100">
+                </div>
+                <div class="product-name pt-3">
+                  <h3 class="text-capitalize">Winter long sleeve black white</h3>
+                  <p class="product-para">$550.00</p>
+                  <div class="py-1">
+                    <span class="star"><i class="fa-regular fa-star" data-aos="zoom-in"
+                      data-aos-delay="100"   data-aos-duration="600"></i></span>
+                    <span class="star"><i class="fa-regular fa-star" data-aos="zoom-in"
+                      data-aos-delay="200"   data-aos-duration="600"></i></span>
+                    <span class="star"><i class="fa-regular fa-star" data-aos="zoom-in"
+                      data-aos-delay="300"   data-aos-duration="600"></i></span>
+                    <span class="star"><i class="fa-regular fa-star" data-aos="zoom-in"
+                      data-aos-delay="400"   data-aos-duration="600"></i></span>
+                    <span class="star active"><i class="fa-regular fa-star" data-aos="zoom-in"
+                      data-aos-delay="500"   data-aos-duration="600"></i></span>
+                   </div>
+                   <button type="button" class="add-to-cart" data-aos="zoom-in"
+                   data-aos-delay="500"   data-aos-duration="600">ADD TO CART</button>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4" data-aos="zoom-in">
+            <div href="#" class="d-block text-center mb-4 r-center">
+              <div class="product-list">
+                <div class="product-image position-relative">
+                    <img src="p-24-1-images/col-7_prev_ui.png"  data-aos="fade-down" data-aos-delay="500"   data-aos-duration="6000" alt="logo" class="img-fluid product-image-first w-50 h-50">
+                    <img src="p-24-1-images/col-8_prev_ui.png" alt="logo" class="img-fluid product-image-secondary w-50 h-100">
+                </div>
+                <div class="product-name pt-3">
+                  <h3 class="text-capitalize">Winter long sleeve black white</h3>
+                  <p class="product-para">$450.00 <del>$600.00</del> </p>
+                  <div class="py-1">
+                    <span class="star"><i class="fa-regular fa-star" data-aos="zoom-in"
+                      data-aos-delay="100"   data-aos-duration="600"></i></span>
+                    <span class="star"><i class="fa-regular fa-star" data-aos="zoom-in"
+                      data-aos-delay="200"   data-aos-duration="600"></i></span>
+                    <span class="star"><i class="fa-regular fa-star" data-aos="zoom-in"
+                      data-aos-delay="300"   data-aos-duration="600"></i></span>
+                    <span class="star active"><i class="fa-regular fa-star" data-aos="zoom-in"
+                      data-aos-delay="400"   data-aos-duration="600"></i></span>
+                    <span class="star active"><i class="fa-regular fa-star" data-aos="zoom-in"
+                      data-aos-delay="500"   data-aos-duration="600"></i></span>
+                   </div>
+                   <button type="button" class="add-to-cart" data-aos="zoom-in"
+                   data-aos-delay="500"   data-aos-duration="600">ADD TO CART</button>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4" data-aos="zoom-in">
+            <div href="#" class="d-block text-center mb-4 r-center">
+              <div class="product-list">
+                <div class="product-image position-relative">
+                  <span class="Sale" data-aos="zoom-in"
+                  data-aos-delay="1000"   data-aos-duration="600">Sale</span>
+                    <img src="p-24-1-images/col-9_prev_ui.png"  data-aos="fade-right" data-aos-delay="3000"   data-aos-duration="5000" alt="logo" class="img-fluid product-image-first w-50 h-50">
+                    <img src="p-24-1-images/col-10_prev_ui.png" alt="logo" class="img-fluid product-image-secondary w-50 h-100">
+                </div>
+                <div class="product-name pt-3">
+                  <h3 class="text-capitalize">Winter long sleeve black white</h3>
+                  <p class="product-para">$750.000</p>
+                  <div class="py-1">
+                    <span class="star"><i class="fa-regular fa-star" data-aos="zoom-in"
+                      data-aos-delay="100"   data-aos-duration="600"></i></span>
+                    <span class="star"><i class="fa-regular fa-star" data-aos="zoom-in"
+                      data-aos-delay="200"   data-aos-duration="600"></i></span>
+                    <span class="star active"><i class="fa-regular fa-star" data-aos="zoom-in"
+                      data-aos-delay="300"   data-aos-duration="600"></i></span>
+                    <span class="star active"><i class="fa-regular fa-star" data-aos="zoom-in"
+                      data-aos-delay="400"   data-aos-duration="600"></i></span>
+                    <span class="star active"><i class="fa-regular fa-star" data-aos="zoom-in"
+                      data-aos-delay="500"   data-aos-duration="600"></i></span>
+                   </div>
+                   <button type="button" class="add-to-cart" data-aos="zoom-in"
+                   data-aos-delay="500"   data-aos-duration="600">ADD TO CART</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4" data-aos="zoom-in">
+            <div href="#" class="d-block text-center mb-4 r-center">
+              <div class="product-list">
+                <div class="product-image position-relative">
+                    <img data-aos="fade-down" data-aos-delay="500"   data-aos-duration="6000" src="p-24-1-images/col-11_prev_ui.png" alt="logo" class="img-fluid product-image-first w-50 h-50">
+                    <img src="p-24-1-images/col-12_prev_ui.png" alt="logo" class="img-fluid product-image-secondary w-50 h-100">
+                </div>
+                <div class="product-name pt-3">
+                  <h3 class="text-capitalize">Winter long sleeve black white</h3>
+                  <p class="product-para">$700.00 </p>
+                  <div class="py-1">
+                    <span class="star"><i class="fa-regular fa-star"
+                      data-aos="zoom-in"
+                      data-aos-delay="100"   data-aos-duration="600"></i></span>
+                    <span class="star"><i class="fa-regular fa-star"  data-aos="zoom-in"
+                      data-aos-delay="200"   data-aos-duration="600"></i></span>
+                    <span class="star"><i class="fa-regular fa-star"  data-aos="zoom-in"
+                      data-aos-delay="300"   data-aos-duration="600"></i></span>
+                    <span class="star"><i class="fa-regular fa-star"  data-aos="zoom-in"
+                      data-aos-delay="400"   data-aos-duration="600"></i></span>
+                    <span class="star active"><i class="fa-regular fa-star"  data-aos="zoom-in"
+                      data-aos-delay="500"   data-aos-duration="600"></i></span>
+                   </div>
+                   <button href="nothing.html" type="button" class="add-to-cart" data-aos="zoom-in"
+                   data-aos-delay="500"   data-aos-duration="600">ADD TO CART</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- UP TO 75% OFF -->
+
+        <div class="overlfow-hidden my-5 off">
+          <div class="row">
+            <dic class="col-sm-12 up-to-off">
+              <img src="p-24-1-images/exercise-2.jpg" alt="offers" class="img-fluid w-100 h-55">
+              <div class="up-to-content">
+                <h2 data-aos="fade-left" 
+                data-aos-delay="300"   data-aos-duration="1000" >
+                  UP TO 75% OFF SPRINGSALE!
+                </h2>
+              </div>
+            </dic>
+          </div>
+        </div>
+
+
+
+      </div>
+    </section>
+
+    
+    <!-- Special section -->
+    <section id="special" class="special text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="headline text-center mb-3 mt-3">
+              <h2 class="pb-3 position-relative d-inline-block">SUMMER SALE</h2>
+
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-7 text-center des">
+          <div class="countdown-container text-center des">
+            <h2 class="text-uppercase">
+              woman floral embroidery
+            </h2>
+            <p class="my-4">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam maiores ipsum ex porro fugiat quibusdam assumenda laudantium corrupti, a quo
+            </p>
+            <ul class="list-unstyled countdown-counter">
+              <li data-aos="fade-up"  data-aos-delay="50"   data-aos-duration="1000"> <span class="fs-1 d-block" id="days">00</span> days </li>
+              <li data-aos="fade-up"  data-aos-delay="50"   data-aos-duration="1000"> <span  class="fs-1 d-block" id="hours">00</span> hours </li>
+              <li data-aos="fade-up"  data-aos-delay="50"   data-aos-duration="1000"><span class="fs-1 d-block" id="min">00</span> minus </li>
+              <li data-aos="fade-up"  data-aos-delay="50"   data-aos-duration="1000"> <span class="fs-1 d-block" id="sec">00</span>sec </li>
+            </ul>
+            <span class="countdown-price h3 d-block mb-4">
+              $420.00 <del>$650.00</del> <br>
+              <button type="button" class="btn btn-danger my-5" data-aos="zoom -out-right" data-aos-delay="300"   data-aos-duration="1000" >ADD TO CART</button>
+            </span>
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-5 text-center ">
+          <div class="special-img position-relative">
+            <!-- <span class="sale">sale</span> -->
+            <img data-aos="fade-down" data-aos-delay="300"   data-aos-duration="1000" src="p-24-1-images/bg-white.jpg" class="img-fluid h-100 w-100"
+           alt="logo">
+           <span data-aos="fade-in" data-aos-delay="500"   data-aos-duration="2000"  class="sale">sale</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Testimonials section -->
+
+    <section class="testimonials" id="testimonials">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="heading text-center mb-5">
+              <h2 class="pb-3 position-relative d-inline-block">Testimonials</h2>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-8 offset-lg-2 text-center">
+            <div id="carouselExampleIndicatorsTwo" class="carousel slide">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicatorsTwo" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicatorsTwo" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="testimonials-wraper">
+                      <div class="row">
+                        <div class="col-sm-12">
+                          <img data-aos="fade-down" src="p-24-1-images/sruti.webp" alt=""
+                          class="img-fluid">
+                        </div>
+                        <div class="user">
+                          <h3 class="text-uppercase">Smritu Mandhana, co-founder / CEO</h3>
+                          <span>Fastcompany ltd.</span>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore sint tenetur quo at nisi eveniet magnam a nesciunt explicabo. Molestias sapiente delectus eos?</p>
+                        </div>
+                      </div>
+                    </div>
+              
+                </div>
+                <div class="carousel-item">
+                  <div class="testimonials-wraper">
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <img data-aos="fade-down"src="p-24-1-images/bumrah.webp" alt=""
+                        class="img-fluid">
+                      </div>
+                      <div class="user">
+                        <h3 class="text-uppercase">BUM BUM BUMRAH, co-founder / CEO</h3>
+                        <span>Fastcompany ltd.</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore sint tenetur quo at nisi eveniet magnam a nesciunt explicabo. Molestias sapiente delectus eos?</p>
+                      </div>
+                    </div>
+                  </div>
+            
+                </div>
+               
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicatorsTwo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true">
+                  <span class="slider-icon">
+                    <!-- <i class="fa-solid fa-chevron-right"></i> -->
+                    <i class="fa-solid fa-angle-left"></i>
+        
+                  </span>
+                </span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicatorsTwo" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true">
+                  <span class="slider-icon">
+                    <!-- <i class="fa-solid fa-angle-left"></i> -->
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </span>
+                </span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!--contact section  -->
+    <section id="Contact">
+      <div class="contact">
+        <div class="container">
+          <div class="mb-5 text-center">
+            <h5>Let's start a conversation</h5>
+            <h2 class="fw-bold">Contact user</h2>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 col-lg-5 col-md-5">
+              <h4 class="fw-bold" data-aos="fade-up" data-aos="fade-in" data-aos-delay="500"   data-aos-duration="600">Contact-info</h4>
+              <ul class="info list-unstyled">
+                <li class="d-flex align-item-center" data-aos="fade-up" data-aos-delay="500"   data-aos-duration="1000">
+                  <span class="pe-3 fs-5"><i class="fa-solid fa-location-dot"></i></span>
+                  <p><a href="#">Lorem ipsum dolor sit amet.
+                  </a></p>
+                </li>
+                <li class="d-flex align-item-center" data-aos="fade-up"  data-aos-delay="500"   data-aos-duration="1000">
+                  <span class="pe-3 fs-5"><i class="fa-solid fa-mobile"></i></span>
+                  <p><a href="#" data-aos="fade-up" data-aos-delay="500"   data-aos-duration="1000">+91 000-000-000
+                  </a></p>
+                </li>
+                <li class="d-flex align-item-center" data-aos="fade-in" data-aos-delay="500"   data-aos-duration="1000">
+                  <span class="pe-3 fs-5"><i class="fa-solid fa-envelope"></i></span>
+                  <p><a href="#">info@eshop.com
+                  </a></p>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-7 col-md-7 pt-lg-0 pt-md-0 pt-4">
+              <form action="#">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input type="text"
+                      data-aos="fade-up" data-aos-delay="500"   data-aos-duration="1000" class="form-control" name="name" id="name" placeholder="Your Name">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input type="email" data-aos="fade-up" data-aos-delay="500"   data-aos-duration="1000" class="form-control" name="email" id="email" placeholder="Email address">
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <textarea data-aos="fade-down" data-aos-delay="500"   data-aos-duration="1000"class="textarea" name="message" col="30" row="5" id="message" placeholder="Enter your message">
+                      </textarea>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                   <button class="btn btn-danger" data-aos="zoom -out-right"
+                 data-aos-delay="100"   data-aos-duration="1000"> <span class="fs-5 pe-2"><i class="fa-solid fa-rocket"  ></i></span>Send Message</button>
+                  </div>
+
+
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    </section>
+
+
+    <!-- footer section -->
+
+    <footer>
+      <div class="p-3 copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-6 p-1 p-lg-3 text-center text-lg-start">
+              <p class="my-0">Copyright @ 2021 <a href="#">E-SHOP</a> All Right Resereved</p>
+            </div>
+            <div class="col-12 col-lg-6 p-1 p-lg-3 text-center text-lg-end">
+              <p class="my-0">REDESIGNED BY<a href="#">BLACK BUG</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- scroll back to top -->
+
+    <div id="scrollup" title="scroll to top">
+      <a href="#home"> <span class="fs-4 text-white"><i class="fa-solid fa-up-long"></i></span></a>
+    </div>
+    
+
+<script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+      
+    </script>
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <script>
+       AOS.init();
+     </script>
+</body>
+</html>

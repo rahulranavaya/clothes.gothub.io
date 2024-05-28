@@ -1,0 +1,460 @@
+@media screen and (max-width:1300px) {
+    /* home css */
+    .home .home-banner-1,
+    .home .home-banner-2{
+        background-position: 65% center;
+        min-height: 550px;
+    }
+    .home .home-banner .home-banner-text{
+        transform: translate(-90%, -50%);
+    }
+
+    /* offers css  */
+    .offers .offer-box .offer-info .heading-bigger{
+        font-size: 2.5rem;
+        margin-bottom: .5rem;
+    }
+    
+    .offers .offer-box .offer-info .offer-title-1{
+        font-size: 1rem;
+    }
+    .offers .offer-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+    
+    .offers .offer-box .offer-info button{
+        padding-top: 0;
+        margin-top: 0;
+    }
+
+    
+}
+@media screen and (max-width:1200px) {
+ /* home css */
+ .home .home-banner-1,
+ .home .home-banner-2{
+     background-position: 65% center;
+     min-height: 550px;
+ }
+ .home .home-banner .home-banner-text{
+     transform: translate(-40%, -50%);
+ }
+
+ /* special css  */
+
+ .special{
+    padding: 4rem;
+    padding-top:3.375rem;
+    background: var(--bg-light-white);
+}
+
+.des{
+    padding-top:3.375rem;
+
+}
+
+.testimonials{
+    padding: 2rem 0 4rem;
+}
+.testimonials .testimonials-wraper{
+    margin: 0;
+    padding: 2rem 5rem;
+  
+}
+.testimonials .slider-icon{
+    font-size: 2rem;
+   
+}
+.testimonials .carousel-indicators [data-bs-target]{
+    margin-top: 2rem;
+    width: 1.58rem;
+}
+.testimonials .testimonials-wraper img{
+    margin: 1.25rem;
+}
+.testimonials .testimonials-wraper h3{
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 23px ;
+}
+.testimonials .testimonials-wraper p{
+    padding: 15px;
+}
+
+}
+
+@media screen and (max-width:1050px) {
+    /* home css */
+    .home .home-banner-1,
+    .home .home-banner-2{
+        background-position: 55% center;
+        min-height: 450px;
+    }
+    .home .home-banner .home-banner-text{
+        transform: translate(-90%, -50%);
+    }
+    .home .home-banner .home-banner-text h1{
+        font-size: 3rem;
+    }
+    .home .home-banner .home-banner-text h2{
+        font-size: 1.2rem;
+    }
+
+    /* special css  */
+
+    .special{
+        padding-top:3rem;
+        background: var(--bg-light-white);
+    }
+    
+    .des{
+        padding-top:1rem;
+    
+    }
+    
+}
+
+@media screen and (max-width:991px) {
+    /* home css */
+    .home .home-banner-1,
+    .home .home-banner-2{
+        background-position: 45% center;
+        min-height: 400px;
+    }
+    .home .home-banner .home-banner-text{
+        /* text-align: center; */
+        transform: translate(-80%, -50%);
+    }
+    .home .home-banner .home-banner-text h1{
+        font-size: 2.5rem;
+    }
+    .home .home-banner .home-banner-text h2{
+        font-size: 1.2rem;
+    }
+    /* special css  */
+    .off .up-to-off .up-to-content h2{
+        color: var(--text-white);
+        font-weight: 500;
+        font-size: 2rem;
+     }
+     
+
+    /* .special .special-img span{
+        position: absolute;
+        top: 0;
+        left: 9rem;
+    } */
+
+    /* Testimonials section */
+    
+}
+@media screen and (max-width:850px) {
+    /* home css */
+    .home .home-banner-1,
+    .home .home-banner-2{
+        background-position: 40% center;
+        min-height: 350px;
+    }
+    .home .home-banner .home-banner-text{
+        /* text-align: center; */
+        transform: translate(-50%, -50%);
+    }
+    /* special css  */
+    .off .up-to-off .up-to-content h2{
+        color: var(--text-white);
+        font-weight: 500;
+        font-size: 1.5rem;
+     }
+
+
+     .special .countdown-container .countdown-counter{
+        /* margin-left: 2rem; */
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        margin-bottom: 1rem;
+    }
+
+    /* Testimonials section */
+    
+}
+
+
+@media screen and (max-width:767px) {
+    /* home css */
+    .home .home-banner-1,
+    .home .home-banner-2{
+        background-position: 30% center;
+        min-height: 300px;
+    }
+    .home .home-banner .home-banner-text{
+        /* text-align: center; */
+        transform: translate(-50%, -50%);
+    }
+
+    .home .home-banner .home-banner-text .btn-danger{
+        padding: 0.5rem 1.5rem;
+        /* margin-top: 0.4rem; */
+    }
+
+    .home .home-banner .home-banner-text .mt-4{
+        margin-top: 0;
+    }
+    /* offers css  */
+    .des{
+        padding-top:1rem;
+    
+    }
+
+    /* Product section */
+  
+    /* Special css */
+
+    /* Testimonials css */
+
+    .testimonials{
+        padding: .5rem 0 2rem;
+    }
+    .testimonials .testimonials-wraper{
+        margin: 0;
+        padding: .5rem 3rem;
+        border-radius: 0;
+    }
+    .testimonials .slider-icon{
+        font-size: 1rem;
+       
+    }
+    .testimonials .carousel-indicators [data-bs-target]{
+        margin-top: 1rem;
+        width: 1.58rem;
+        height: 0.213rem;
+
+    }
+    .testimonials .testimonials-wraper img{
+        margin: 1rem;
+    }
+    .testimonials .testimonials-wraper h3{
+        font-size: 1rem;
+        font-weight: 700;
+        padding: 23px ;
+    }
+    .testimonials .testimonials-wraper p{
+        padding: 23px;
+    }
+    
+    }
+    
+
+
+@media screen and (max-width:630px) {
+    /* home css */
+    .home .home-banner-1,
+    .home .home-banner-2{
+        background-position: 30% center;
+        min-height: 300px;
+    }
+    .home .home-banner .home-banner-text{
+        /* text-align: center; */
+        transform: translate(-40%, -50%);
+    }
+
+    .home .home-banner .home-banner-text .btn-danger{
+        padding: 0.3rem 1rem;
+        /* margin-top: 0.4rem; */
+    }
+
+    .home .home-banner .home-banner-text .mt-4{
+        margin-top: 0;
+    }
+    .home .home-banner .home-banner-text h1{
+        font-size: 2rem;
+    }
+    .home .home-banner .home-banner-text h2{
+        font-size: 1rem;
+    }
+    /* offers css  */
+
+    .off .up-to-off .up-to-content h2{
+        color: var(--text-white);
+        font-weight: 500;
+        font-size: 1.3rem;
+     }
+
+    /* Product section */
+
+    /* Special css */
+    .special .countdown-container h2{
+        font-size: 1rem;
+        font-weight: 300;
+    }
+
+    .special .countdown-container p{
+        /* border: 2px solid red; */
+        padding: 0;
+    }
+    .special .countdown-container .countdown-counter li{
+       font-size: 0.5rem;
+       border-radius: 0.875rem;
+       padding: 1rem 0.5rem;
+       width: 20%;
+       margin: 0 0.313rem;
+    }
+    .special .countdown-container .countdown-counter li span{
+        font-weight: 300;
+    }
+
+    .special .countdown-container .countdown-price del{
+        font-size: 1rem;
+    }
+    .special .countdown-container .countdown-price{
+        font-size: 1rem;
+        font-weight: 300;
+    }
+    .special .special-img{
+        margin: auto;
+        height: 60%;
+        text-align: center;
+        width: 80%;
+    }
+    /* Testimonials css */
+
+}
+@media screen and (max-width:480px) {
+    /* home css */
+    .home .home-banner-1,
+    .home .home-banner-2{
+        background-position: 30% center;
+        min-height: 300px;
+    }
+    .home .home-banner .home-banner-text{
+        text-align: center;
+        transform: translate(-30%, -50%);
+    }
+
+    .home .home-banner .home-banner-text .btn-danger{
+        padding: 0.3rem 0.5rem;
+        /* margin-top: 0.4rem; */
+    }
+
+    .home .home-banner .home-banner-text .mt-4{
+        margin-top: 0;
+    }
+    .home .home-banner .home-banner-text h1{
+        font-size: 1.5rem;
+    }
+    .home .home-banner .home-banner-text h2{
+        font-size: 0.8rem;
+    }
+    /* offers css  */
+
+    .off .up-to-off .up-to-content h2{
+        color: var(--text-white);
+        font-weight: 800;
+        font-size: 1rem;
+     }
+    /* Product section */
+
+    /* Special css */
+
+    /* Testimonials css */
+    .testimonials{
+        padding: .5rem 0 1rem;
+    }
+    .testimonials .testimonials-wraper{
+        margin: 0;
+        padding: .5rem 3rem;
+        border-radius: 0;
+    }
+    .testimonials .slider-icon{
+        font-size: 1rem;
+       
+    }
+    .testimonials .carousel-indicators [data-bs-target]{
+        margin-top: 1rem;
+        width: 1.58rem;
+        height: 0.213rem;
+
+    }
+    .testimonials .testimonials-wraper img{
+        margin: 1rem;
+    }
+    .testimonials .testimonials-wraper h3{
+        font-size: .8rem;
+        font-weight: 700;
+        padding: 10px ;
+    }
+    .testimonials .testimonials-wraper p{
+        padding: 13px;
+        /* border: 2px solid red;    */
+    }
+
+}
+
+
+@media screen and (max-width:360px) {
+       /* home css */
+       .home .home-banner-1,
+       .home .home-banner-2{
+           background-position: 30% center;
+           min-height: 300px;
+       }
+       .home .home-banner .home-banner-text{
+           text-align: center;
+           transform: translate(-20%, -50%);
+       }
+   
+       .home .home-banner .home-banner-text .btn-danger{
+           padding: 0.3rem 0.5rem;
+           /* margin-top: 0.4rem; */
+       }
+   
+       .home .home-banner .home-banner-text .mt-4{
+           margin-top: 0;
+       }
+       .home .home-banner .home-banner-text h1{
+           font-size: 1.5rem;
+       }
+       .home .home-banner .home-banner-text h2{
+           font-size: 0.8rem;
+       }
+       /* offers css  */
+
+       .off .up-to-off .up-to-content h2{
+        color: var(--text-white);
+        font-weight: 500;
+        font-size: 0.7rem;
+     }
+   
+       /* Product section */
+   
+       /* Special css */
+
+       .special .countdown-container .countdown-counter li{
+       font-size: 0.4rem;
+       font-weight: bold;
+       text-align: center;
+       background: var(--bg-white);
+       border-radius: 0.875rem;
+       padding: 0.5rem 0.1rem;
+       width: 25%;
+       margin: 0 0.2rem;
+    }
+    .special .countdown-container .countdown-counter li span{
+        font-weight: 200;
+    }
+
+    .special .countdown-container h2{
+        font-size: 0.8rem;
+        font-weight: 300;
+    }
+    .des{
+        padding-top:0;
+    }
+   
+       /* Testimonials css */
+   
+
+}
